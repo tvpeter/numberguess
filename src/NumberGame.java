@@ -19,7 +19,7 @@ public class NumberGame {
 
             if(guess == randomNumber){
                 System.out.println("You win!!");
-                break;
+                return ;
             }else if(guess > randomNumber){
                 System.out.println("Your guess is greater than the number");
             }else {
